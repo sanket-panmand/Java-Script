@@ -15,3 +15,26 @@ console.log( typeof valueInNumber)
  // "" =>false
  // "sanket" => true
  
+
+ //************************Operation**************************** */
+
+ let value =3
+ let val = -value
+ console.log(val)
+
+ //console.log(2+2)
+ //console.log(2-2)
+ //console.log(2*2)
+ //console.log(2**2)
+ //console.log(2% 2)
+
+ let str1 = "sanket"
+ let str2 ="panmand"
+
+ let str3 =str1 +str2
+ console.log(str3)
+
+ console.log("1"+2)
+ console.log(1+"2");
+ 
+ 

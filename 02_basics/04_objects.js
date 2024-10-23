@@ -68,14 +68,36 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+//JSON format
+
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
+ 
 [
     {},
     {},
     {}
 ]
+
+// practice
+const stu = {
+    Name :"sanket",
+    age : 22,
+    add :"pune",
+    digignation: "job"
+}
+console.log(stu.Name)
+
+const {add : a} = stu
+
+console.log(a)
+
+const navbar=({Name})=>{
+
+}
+
+navbar(Name = "sanket")
